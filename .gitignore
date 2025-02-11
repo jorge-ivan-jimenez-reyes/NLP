@@ -1,0 +1,60 @@
+# ==============================
+# Ignorar checkpoints de Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Archivos compilados y caché de Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Entornos virtuales
+# ==============================
+env/
+venv/
+ENV/
+VENV/
+.venv/
+env.bak/
+venv.bak/
+
+# ==============================
+# Archivos y directorios del sistema
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Archivos y datos específicos de NLP
+# ==============================
+# (Si trabajas con datasets grandes, puedes excluir la carpeta de datos)
+data/
+# O bien, si deseas ignorar ciertos tipos de archivos de datos:
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.xml
+
+# Ignorar modelos o checkpoints de entrenamiento (ajusta las extensiones según lo que uses)
+*.h5
+*.hdf5
+*.pt
+*.ckpt
+*.bin
+
+# ==============================
+# Logs, resultados y salidas
+# ==============================
+logs/
+output/
+results/
+
+# ==============================
+# Otros archivos de configuración de Jupyter
+# ==============================
+*.nbconvert.ipynb
+jupyter_cache/
