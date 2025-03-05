@@ -58,3 +58,4 @@ results/
 # ==============================
 *.nbconvert.ipynb
 jupyter_cache/
+/Wordembeddings/glove.42B.300d.txt
